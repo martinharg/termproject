@@ -1,0 +1,6 @@
+import numpy as np
+mean = np.mean(appleprices)
+std_dev = np.std(appleprices)
+
+print("Mean:", mean)
+print("Standard Deviation:", std_dev)

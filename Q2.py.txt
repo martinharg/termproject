@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+
+days = list(range(1, 253))  
+
+
+plt.figure(figsize=(10, 6))  
+plt.plot(days, appleprices, label="Apple Stock Price", color="blue", linewidth=2)
+
+plt.title("Apple Stock Price, Nov 2019 to Nov 2020", fontsize=14)  
+plt.xlabel("Day", fontsize=12)  
+plt.ylabel("Trading Price", fontsize=12)  
+ 
+plt.show()
