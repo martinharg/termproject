@@ -9,6 +9,6 @@ def find_max_profit(appleprices):
 
 max_profit = find_max_profit(appleprices)
 
-print(f"The largest possible profit is ${max_profit:.2f}.")
+print(f"The largest possible profit is ${max_profit}.")
 
-The largest possible profit is $80.85.
+The largest possible profit is $80.854996.
