@@ -1,0 +1,14 @@
+def find_max_profit(appleprices):
+    current_max_val = float(-1) 
+    max_profit_val = 0 
+    for price in reversed(appleprices): 
+        current_max_val = max(current_max_val, price)  
+        potential_profit = current_max_val - price  
+        max_profit_val = max(potential_profit, max_profit_val) 
+    return max_profit_val
+
+max_profit = find_max_profit(appleprices)
+
+print(f"The largest possible profit is ${max_profit:.2f}.")
+
+The largest possible profit is $80.85.
